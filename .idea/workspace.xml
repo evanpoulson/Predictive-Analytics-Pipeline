@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd172756-87b9-47dc-b39f-acc1edf7cb30" name="Changes" comment="Fixed data_fetcher.py not retrieving all months">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/eda.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/eda.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="fd172756-87b9-47dc-b39f-acc1edf7cb30" name="Changes" comment="Performed seasonality analysis" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734904762444</updated>
       <workItem from="1734904764063" duration="2392000" />
-      <workItem from="1735662395256" duration="2693000" />
+      <workItem from="1735662395256" duration="3008000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -121,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735664184881</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Performed seasonality analysis">
+      <option name="closed" value="true" />
+      <created>1735665109278</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735665109278</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +151,8 @@
     <MESSAGE value="Continued eda (Pair plots, moving averages, pct changes)" />
     <MESSAGE value="Realized the data was missing months :(" />
     <MESSAGE value="Fixed data_fetcher.py not retrieving all months" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed data_fetcher.py not retrieving all months" />
+    <MESSAGE value="Performed seasonality analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Performed seasonality analysis" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AAPL_Stock_Predictor$data_fetcher.coverage" NAME="data_fetcher Coverage Results" MODIFIED="1735663994935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
