@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd172756-87b9-47dc-b39f-acc1edf7cb30" name="Changes" comment="Performed seasonality analysis" />
+    <list default="true" id="fd172756-87b9-47dc-b39f-acc1edf7cb30" name="Changes" comment="Added outlier detection in close prices">
+      <change beforePath="$PROJECT_DIR$/notebooks/eda.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/eda.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734904762444</updated>
       <workItem from="1734904764063" duration="2392000" />
-      <workItem from="1735662395256" duration="3008000" />
+      <workItem from="1735662395256" duration="3312000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -126,7 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735665109278</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added feature engineering (lagged features, rsi, macd)">
+      <option name="closed" value="true" />
+      <created>1735665622325</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735665622325</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added outlier detection in close prices">
+      <option name="closed" value="true" />
+      <created>1735665688474</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735665688474</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +170,9 @@
     <MESSAGE value="Realized the data was missing months :(" />
     <MESSAGE value="Fixed data_fetcher.py not retrieving all months" />
     <MESSAGE value="Performed seasonality analysis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Performed seasonality analysis" />
+    <MESSAGE value="Added feature engineering (lagged features, rsi, macd)" />
+    <MESSAGE value="Added outlier detection in close prices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added outlier detection in close prices" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AAPL_Stock_Predictor$data_fetcher.coverage" NAME="data_fetcher Coverage Results" MODIFIED="1735663994935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
