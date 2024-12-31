@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd172756-87b9-47dc-b39f-acc1edf7cb30" name="Changes" comment="Began eda">
+    <list default="true" id="fd172756-87b9-47dc-b39f-acc1edf7cb30" name="Changes" comment="Continued eda (Pair plots, moving averages, pct changes)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/eda.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/eda.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_fetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_fetcher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734904762444</updated>
       <workItem from="1734904764063" duration="2392000" />
-      <workItem from="1735662395256" duration="353000" />
+      <workItem from="1735662395256" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -98,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734907163686</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Continued eda (Pair plots, moving averages, pct changes)">
+      <option name="closed" value="true" />
+      <created>1735662888083</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735662888083</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +127,8 @@
     <MESSAGE value=".gitkeep directories" />
     <MESSAGE value="Created data_fetcher.py" />
     <MESSAGE value="Began eda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Began eda" />
+    <MESSAGE value="Continued eda (Pair plots, moving averages, pct changes)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continued eda (Pair plots, moving averages, pct changes)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AAPL_Stock_Predictor$data_fetcher.coverage" NAME="data_fetcher Coverage Results" MODIFIED="1734905414221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
