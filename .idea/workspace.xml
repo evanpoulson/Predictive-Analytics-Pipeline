@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd172756-87b9-47dc-b39f-acc1edf7cb30" name="Changes" comment="Added outlier detection in close prices">
-      <change beforePath="$PROJECT_DIR$/notebooks/eda.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/eda.ipynb" afterDir="false" />
+    <list default="true" id="fd172756-87b9-47dc-b39f-acc1edf7cb30" name="Changes" comment="Added volatility and autocorrelation analysis">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734904762444</updated>
       <workItem from="1734904764063" duration="2392000" />
-      <workItem from="1735662395256" duration="3312000" />
+      <workItem from="1735662395256" duration="3760000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -144,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735665688474</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added volatility and autocorrelation analysis">
+      <option name="closed" value="true" />
+      <created>1735665758276</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735665758276</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +180,8 @@
     <MESSAGE value="Performed seasonality analysis" />
     <MESSAGE value="Added feature engineering (lagged features, rsi, macd)" />
     <MESSAGE value="Added outlier detection in close prices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added outlier detection in close prices" />
+    <MESSAGE value="Added volatility and autocorrelation analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added volatility and autocorrelation analysis" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AAPL_Stock_Predictor$data_fetcher.coverage" NAME="data_fetcher Coverage Results" MODIFIED="1735663994935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
